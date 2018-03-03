@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Plotly Demonstration</title>
+
+<script> </script>
+
+<style>
+
+<!-- Internal CSS -->
+body {
+  margin: 0;
+}
+
+/* 4 charts that floats next to each other */
+	.chart {
+    float:left;
+    padding: 40px;
+}
+
+/* Clear floats after the columns */
+	.row:after {
+    content: "";
+    clear: both;
+
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="row">
+<div class="chart left">
+
+
+<h2 style="color:gray;" > Price and number of reviews </h2>
+<div id="myDiv1" style="width:400px; height:400px; float:left;"></div>
+
+<h2 <h1 style="color:gray;" > The spreading on rental prices </h2>
+<div id="myDiv2" style="width:400px; height:400px; float:left;"></div>
+
+<h2 style="color:gray;" > The spreading on the number of guests </h2>
+<div id="myDiv3" style="width:400px; height:400px; float:left;"></div>
+
+<h2 style="color:gray;" > Percentage of each type of room </h2> 
+<div id="myDiv4" style="width:400px; height:400px; float:left;"></div>
+</body>
+
+<script src="./plotly-latest.min.js"></script>
+<script src="./firstPlotSoprano.js"></script>
+
+</html>
